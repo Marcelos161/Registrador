@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em;
+    background-color: #00b9bd;
+    color: #004853;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 1px 2px 9px 10px #007e80;
+
+}

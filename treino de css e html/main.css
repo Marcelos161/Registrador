@@ -1,0 +1,55 @@
+/* BOX PRINCIPAL */
+
+#container {
+    display: flex;
+    padding: 7em;
+    background-color: #00b9bd;
+    margin: 50px;
+    justify-content: space-between;
+    box-shadow: 0px 1px 10px 0px #007e80;
+    border-radius: 10px;
+}
+
+/* INPUT */
+
+#container input {
+    border: 0px;
+    border-radius: 0px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #00b9bd;
+    outline: 0;
+
+}
+
+#container input:focus {
+    border-bottom: 1px solid black;
+}
+
+input::placeholder {
+    color: gray;
+    transition: 2s;
+}
+
+input::placeholder:focus {
+    
+}
+/* CAIXA DOS INPUTS */
+#register, #login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*  BOTOES */
+button {
+    border: 0;
+    cursor: pointer;
+    padding: 0.8em 3.0em;
+    border-radius: 20px;
+}
+
+
+button:hover {
+    transition: 2ms;
+    background-color: #007e80;
+}
